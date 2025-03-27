@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const input_item=document.getElementById("item-input")
 const add_btn=document.getElementsByClassName("btn");
 const filter =document.getElementById("filter");
@@ -81,3 +82,4 @@ document.addEventListener("DOMContentLoaded",()=>{
   remain_obj()
  
 })
+}
