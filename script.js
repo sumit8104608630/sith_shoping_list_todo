@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const remove_btn=document.getElementsByClassName("remove-item")
     const items=document.getElementsByClassName("items")
     const item=document.getElementsByTagName("li")
-    console.log(items[0])
     
     let obj={}
     
