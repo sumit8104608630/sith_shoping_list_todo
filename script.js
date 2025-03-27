@@ -53,7 +53,6 @@ let filter =Object.entries(obj).filter(([_,value])=>{
     return value.toLowerCase().includes(input.toLowerCase())
 })
 
-console.log(filter)
 
 items[0].innerHTML=""
 filter.forEach(([key,value])=>{
